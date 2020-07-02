@@ -36,13 +36,18 @@ body {
     text-shadow:  1px 1px 2px  rgb(39, 40, 41);
     text-align: center;
 }
-.bubbly-button {
+
+.btn {
+    margin: 10px auto;
+    width: auto;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     background-color: #ff0081;
-    display: inline-block;
     border-radius: 30px;
     border: none;
-    margin: 0 auto;
-    padding: 0 30px ;
-    font-size: .85em;
+    padding: 7px 30px;
     cursor: pointer;
 }
