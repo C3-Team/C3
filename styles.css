@@ -31,6 +31,7 @@ body {
     width: auto;
     padding: 0 30px;
     font-size: 1.25em;
-    word-break: break-all;
-    text-shadow: rgb(16, 28, 39) 1px 1px;
+    word-wrap: break-word;
+    text-shadow:  1px 1px 2px  rgb(39, 40, 41);
+    text-align: center;
 }
