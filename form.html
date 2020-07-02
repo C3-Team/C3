@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Care Box</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title" class="text-center">
+                Coochie Care Box Questionnaire
+            </h1>
+        <p id="description" class="description text-center">
+        Thank you for taking the time to help us curate the perfect box for you and your needs!
+        </p>
+    </header>
+    <form id="survey-form">
+
+        <div class="form-group"> 
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter Your Email" required />
+        </div>
+
+        <div class="form-group">
+            <label id="number-label"for="number">Age</label>
+            <input type="number" name="age" id="number" class="form-control" placeholder="Age" />
+        </div>
+
+        <div class="form-group">
+            <p>What kind of products would you like to recieve every month in your Coochie Care Box?<br></p>
+            <input type="checkbox" name="p1" id="p1" value="Pads">
+            <label for="p1">Pads</label>
+
+            <input type="checkbox" name="p2" id="p2" value="Tampons">
+            <label for="p2">Tampons</label>
+
+            <input type="checkbox" name="p3" id="p3" value="Cup">
+            <label for="p3">Menstrual cup</label>
+
+            <input type="checkbox" name="p4" id="p5" value="Protective">
+            <label for="p4">Protective Underwear</label>
+
+            <input type="checkbox" name="p5" id="p5" value="CBD">
+            <label for="p5">CBD products</label> <br>
+
+            <input type="checkbox" name="p6" id="p6" value="Prenatal">
+            <label for="p6">Prenatal Vitamins</label> 
+
+            <input type="checkbox" name="p7" id="p7" value="Stretch">
+            <label for="p7">Belly Butter</label> 
+
+            <input type="checkbox" name="p8" id="p8" value="Nausea">
+            <label for="p8">Nausea Relief Products</label>
+
+            <input type="checkbox" name="p9" id="p9" value="Compression">
+            <label for="p9">Compression socks</label> <br>
+
+            <input type="checkbox" name="p10" id="p10" value="BirthControl">
+            <label for="p10">Birth Control Pills</label>
+
+            <input type="checkbox" name="p11" id="p11" value="Tea">
+            <label for="p11">Herbal Tea</label>
+
+            <input type="checkbox" name="p12" id="p12" value="heat">
+            <label for="p12">Heating pads</label> <br>
+
+            <label id="etc" for="etc">What else?</label>
+            <input type="text" name="text" id="etx" class="form-control" placeholder="" optional />
+        </div>
+    </form>
+</body>
+</html>
