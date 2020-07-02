@@ -7,12 +7,15 @@ body {
 
 .container {
     margin: auto;
-    top: 50%;
+    top: 30%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-kerning: normal;
+    font-size: 22px;
 }
 
 .title {
