@@ -48,12 +48,15 @@ body,html {
     transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: rgb(202, 52, 52)1;
+    background-color: rgb(202, 52, 52);
+    color:black;
     border-radius: 30px;
     border: none;
+    border-radius: 2px;
     padding: 7px 30px;
     cursor: pointer;
     word-wrap: break-word;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 /*form style*/
 
