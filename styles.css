@@ -1,4 +1,4 @@
-body,html {
+body {
     background-color: #ffb3c6;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23516e35' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%239cb541' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%236e7646' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23a39a37' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%238a7e57' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23a97f2e' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23a78667' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23b06524' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c38e78' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23b64a1b' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23e09689' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23bd2f11' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
     background-attachment: fixed;
@@ -8,7 +8,6 @@ body,html {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.4;
-    
 }
 
 .container {
@@ -34,6 +33,7 @@ body,html {
 .subtitle {
     width: auto;
     padding: 0 30px ;
+    margin: 0 auto auto auto;
     font-size: 1.25em;
     word-wrap: break-word;
     text-shadow:  1px 1px 2px  rgb(39, 40, 41);
@@ -65,7 +65,7 @@ label {
     font-size: 1.125rem;
     margin-bottom: 0.5rem;
   }
-input,button {
+input{
     margin: 0;
     font-family: inherit;
     font-size: inherit;
@@ -74,7 +74,7 @@ input,button {
 
 .container-form {
     width: 100%;
-    margin: 3.125rem auto 0 auto;
+    margin: 0 auto 0 auto;
 }
   @media (min-width: 768px) {
     .container-form {
