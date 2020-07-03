@@ -106,12 +106,12 @@ input,button {
   .form-group {
     margin: 0 auto .80rem auto;
     padding: 0.25rem;
-    text-align: center;
+    text-align: left;
   }
 
   .form-control {
     display: block;
-    width: 100%;
+    width: auto;
     height:1.375rem;
     padding: .375rem .75rem;
     color: #495057;
@@ -120,9 +120,9 @@ input,button {
     overflow: hidden;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
-  .submit-button {
-    display: block;
-    width:100%;
+   .submit-button {
+    width:auto;
+    left:50%;
     padding: .75rem;
     margin: 0 10px 10px 10px;
     color:inherit;
@@ -130,5 +130,5 @@ input,button {
     border-radius: 2px;
     cursor: pointer;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-  }
+  } 
   
