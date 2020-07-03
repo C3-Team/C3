@@ -47,7 +47,7 @@ body {
     transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #ff0081;
+    background-color: rgb(202, 52, 52)1;
     border-radius: 30px;
     border: none;
     padding: 7px 30px;
@@ -97,12 +97,6 @@ input,button {
     background: var(--color-darkblue-alpha);
     padding: 2.5rem 0.625rem;
     border-radius: 0.25rem;
-  }
-
-  @media (min-width: 480px) {
-    form {
-      padding: 2.5rem;
-    }
   }
 
   .form-group {
