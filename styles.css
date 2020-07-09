@@ -24,17 +24,17 @@ body {
 }
 
 .title {
-    text-align: center;
     width: auto;
-    padding: 0 30px;
+    padding: 0;
     font-size: 2.25em;
     text-align: left;
+    word-wrap: break-word;
 }  
 
 .subtitle {
     width: auto;
-    padding: 0 30px ;
-    margin: 0 auto auto auto;
+    padding: 0 0 0 10px;
+    margin: 0;
     font-size: 1.25em;
     word-wrap: break-word;
     text-shadow:  1px 1px 2px  rgb(39, 40, 41);
@@ -42,20 +42,13 @@ body {
 }
 
 .btn {
-    margin: 30px auto;
-    width: auto;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    margin: 30px;
+    padding: 7px 30px;
     background-color: rgb(202, 52, 52);
     color:black;
     border: none;
     border-radius: 2px;
-    padding: 7px 30px;
     cursor: pointer;
-    word-wrap: break-word;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 /*form style*/
@@ -123,20 +116,17 @@ input{
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
    .submit-button {
-    width:auto;
+    width:100%;
+    max-width: 375px;
     left:50%;
-    padding: 7px 30px;
-    margin: 30px auto;
+    padding: 15px 30px;
+    margin: 15px auto;
     background-color:rgb(202, 52, 52);
     border-radius: 2px;
     border: none;
     cursor: pointer;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   } 
-  #etc {
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-  }
   #email , #age , #etc {
     width: 100%;
     max-width: 350px;
