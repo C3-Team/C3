@@ -20,7 +20,7 @@
             <br><br>
             Help us curate a special box for you!
         </p>
-        <form id="survey-form" netlify>
+        <form id="survey-form" netlify data-netlify-recaptcha="true">
             <label for="email">
                 Email
                 <input type="email" name="email" id="email" class="" placeholder="your@email.com" required />
@@ -73,6 +73,7 @@
             <label for="etc">What else?
                 <input type="text" name="text" id="etc" class="" placeholder="Chocolate,..." optional />
             </label>
+            <div data-netlify-recaptcha="true"></div>
             <button type="submit" id="submit"class="submit-button">Submit</button>
         </form> 
     </div>
