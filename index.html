@@ -1,93 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174218445-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-174218445-1');
-  gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
-</script>
-
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Coochie Care Club</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@377&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Allerta+Stencil" />
+    <title>C3 - Coochie Care Club</title> 
+ </head>
+ <body>
     <div class="container">
-        <header class="header">
-            <a href="/" class="logo">
-                <h1 class="title" class="text-center">
-                    Welcome to Coochie Care Club
-                </h1>
+        <header>
+            <a href="/">
+                <h1 class="title">C3</h1>
             </a>
         </header>
-        <p class="subtitle">
-            Coochie Care Club is a safe space dedicated to all things vaginal care.
-            <br><br>
-            Help us curate a special box for you!
-        </p>
-        <form id="survey-form" netlify data-netlify-recaptcha="true">
-            <label for="email">
-                Email
-                <input type="email" name="email" id="email" class="" placeholder="your@email.com" required />
-            </label>
-            <br><br>
-            <label for="age">
-                Age
-                <input type="number" name="age" id="age" class="" placeholder="25" />
-            </label>
-            <p>What kind of products would you like to receive every month in your Coochie Care Box?<br></p>
+        <div class="section" id="misson"> 
+            <h2>Mission</h2>
+            <p>C3 is a subscription based service for all things vaginal care. Our mission is to increase access and fight period poverty for all marginalized women.</p>
+            <!-- <div class="fight">
+                <p>Welcome To The Fight</p>
+            </div> -->
+            <br/>
+            <a type="button" class="btn" href="./signup.html">Join the Fight</a>
+       </div>
 
-            <input type="checkbox" name="pads" id="pads" value="√">
-            <label for="p1">Pads</label>
-            <br>
-            <input type="checkbox" name="tampons" id="tampons" value="√">
-            <label for="p2">Tampons</label>
-            <br>
-            <input type="checkbox" name="menstrual-cup" id="menstrual-cup" value="√">
-            <label for="p3">Menstrual cups</label>
-            <br>
-            <input type="checkbox" name="Protective Underwear" id="Protective Underwear" value="√">
-            <label for="p4">Protective Underwear</label>
-            <br>
-            <input type="checkbox" name="CBD products" id="CBD products" value="√">
-            <label for="p5">CBD products</label>
-            <br>
-            <input type="checkbox" name="Prenatal Vitamins" id="Prenatal Vitamins" value="√">
-            <label for="p6">Prenatal Vitamins</label>
-            <br>
-            <input type="checkbox" name="Belly Butter" id="Belly Butter" value="√">
-            <label for="p7">Belly Butter</label>
-            <br>
-            <input type="checkbox" name="Nausea Relief Products" id="Nausea Relief Products" value="√">
-            <label for="p8">Nausea Relief Products</label>
-            <br>
-            <input type="checkbox" name="Compression socks" id="Compression socks" value="√">
-            <label for="p9">Compression socks</label>
-            <br>
-            <input type="checkbox" name="Birth Control Pills" id="Birth Control Pills" value="√">
-            <label for="p10">Birth Control Pills</label>
-            <br>
-            <input type="checkbox" name="Herbal Tea" id="Herbal Tea" value="√">
-            <label for="p11">Herbal Tea</label>
-            <br>
-            <input type="checkbox" name="Heating pads" id="Heating pads" value="√">
-            <label for="p12">Heating pads</label>
-            <br>
-            <input type="checkbox" name="Sex Toys" id="Sex Toys" value="√">
-            <label for="p14">Sex Toys</label>
-            <br><br>
-            <label for="etc">What else?
-                <input type="text" name="etc" id="etc" class="" placeholder="Chocolate,..." optional />
-            </label> <br> <br>
-            <div data-netlify-recaptcha="true"></div>
-            <button type="submit" id="submit"class="submit-button">Submit</button>
-        </form> 
+       <div class="section">
+           <div id="problem">
+                <h2>Problem</h2>
+                <p> Nearly 1 in 4 women in their menstruating years experience “period poverty,” ranging from the inability to purchase the products they need to the inability to go to work, school, and get out in life in general because of it.
+                </p>
+                <br/>
+                <a type="button" class="btn" href="./learn-more.html">Learn More</a>
+            </div>
+       </div>
+   
+       <div class="section" id="solution">
+           <h2>Solution</h2> 
+           <p>1- Offer high-quality menstrual products to our subscription-based members.
+               2- Provide free access to menstrual products to marginalized, incarcerated, and financially challenged womxn and girls.</p>
+               <br/>
+               <a type="button" class="btn" target="_blank" href="https://checkout.square.site/buy/7RT6E7JBIMYIXM7FBL5STHOK">Pre-order</a>
+       </div>
     </div>
-</body>
-</html>
+
+    <footer class="footer">
+        <p>© 2020 C3</p>
+    </footer>
+
+    <div class="menu toggleMenu">
+        <h1>Menu</h1>
+    </div>
+    <script src="/scripts.js"></script>
+ </body>
+ </html>

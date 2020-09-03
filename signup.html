@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174218445-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174218445-1');
+  gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>C3 - Join the Fight</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="/">
+                <h1 class="title">C3</h1>
+            </a>
+        </header>
+        <p class="subtitle">
+            C3 is a safe space dedicated to all things vaginal care.
+            <br><br>
+            Help us curate a special box for you!
+        </p>
+        <form id="survey-form" netlify data-netlify-recaptcha="true">
+            <label for="email">
+                Email
+                <input type="email" name="email" id="email" class="" placeholder="your@email.com" required />
+            </label>
+            <br><br>
+            <label for="age">
+                Age
+                <input type="number" name="age" id="age" class="" placeholder="25" />
+            </label>
+            <p>What kind of products would you like to receive every month in your Coochie Care Box?<br></p>
+
+            <input type="checkbox" name="pads" id="pads" value="√">
+            <label for="p1">Pads</label>
+            <br>
+            <input type="checkbox" name="tampons" id="tampons" value="√">
+            <label for="p2">Tampons</label>
+            <br>
+            <input type="checkbox" name="menstrual-cup" id="menstrual-cup" value="√">
+            <label for="p3">Menstrual cups</label>
+            <br>
+            <input type="checkbox" name="Protective Underwear" id="Protective Underwear" value="√">
+            <label for="p4">Protective Underwear</label>
+            <br>
+            <input type="checkbox" name="CBD products" id="CBD products" value="√">
+            <label for="p5">CBD products</label>
+            <br>
+            <input type="checkbox" name="Prenatal Vitamins" id="Prenatal Vitamins" value="√">
+            <label for="p6">Prenatal Vitamins</label>
+            <br>
+            <input type="checkbox" name="Belly Butter" id="Belly Butter" value="√">
+            <label for="p7">Belly Butter</label>
+            <br>
+            <input type="checkbox" name="Nausea Relief Products" id="Nausea Relief Products" value="√">
+            <label for="p8">Nausea Relief Products</label>
+            <br>
+            <input type="checkbox" name="Compression socks" id="Compression socks" value="√">
+            <label for="p9">Compression socks</label>
+            <br>
+            <input type="checkbox" name="Birth Control Pills" id="Birth Control Pills" value="√">
+            <label for="p10">Birth Control Pills</label>
+            <br>
+            <input type="checkbox" name="Herbal Tea" id="Herbal Tea" value="√">
+            <label for="p11">Herbal Tea</label>
+            <br>
+            <input type="checkbox" name="Heating pads" id="Heating pads" value="√">
+            <label for="p12">Heating pads</label>
+            <br>
+            <input type="checkbox" name="Sex Toys" id="Sex Toys" value="√">
+            <label for="p14">Sex Toys</label>
+            <br><br>
+            <label for="etc">What else?
+                <input type="text" name="etc" id="etc" class="" placeholder="Chocolate,..." optional />
+            </label> <br> <br>
+            <div data-netlify-recaptcha="true"></div>
+            <button type="submit" id="submit"class="submit-button">Submit</button>
+        </form> 
+    </div>
+</body>
+</html>

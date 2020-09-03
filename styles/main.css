@@ -1,0 +1,73 @@
+ html,
+ body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #F2D4C5; */
+    font-family: 'Work Sans', sans-serif;
+ }
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    color: rgb(186,37,103);
+    /* font-size: 325%; */
+    font-family: 'Work Sans', sans-serif;
+     
+ }
+
+ .container {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    max-width: 600px;
+    color: #123C69;
+    font-family: 'Work Sans', sans-serif;
+
+ }
+
+ .section {
+    padding: 0 0 40px 0;
+ }
+
+.btn {
+    margin: 15px 0;
+    padding: 7px 35px;
+    border-radius: 25px;
+    background-color: #123C69;
+    color: #fff;
+}
+
+ /* .button {
+   
+    background:    #f2d4c5;
+    background:    linear-gradient(#123c69, #f2d4c5 50%, #123c69);
+    border-radius: 100px;
+    width: auto;
+    padding:       1px 4px;
+    color:         #123c69;
+    display:       inline-block;
+    font:          normal normal 22px/1 "Noto Sans", sans-serif;
+    text-align:    center;
+ } */
+
+ .menu {
+    height: 100%;
+    width: 100%;
+    background: black;
+ }
+
+ .toggleMenu {
+    display:none;
+ }
+
+ .mc-field-group {
+    color:#123C69;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ .footer {
+    text-align: center;
+    color: rgb(186,37,103);
+ }
