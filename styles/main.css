@@ -112,27 +112,19 @@ a {
 #submit {
    width: 25%;
    height: 46px;
-   background: #E86C8D;
+   background: #000000;
+   color: white;
    font-family: inherit;
    font-weight: bold;
-   color: inherit;
    letter-spacing: 1px;
    border-radius: 0 5px 5px 0;
    cursor: pointer;
    transition: background .3s ease-in-out;
  }
 
- #submit:hover {
-   background: #d45d7d;
- }
-
  input{
    margin: 0 0 10px;
  }
 
- input:focus {
-   outline: none;
-   outline: 2px solid #E86C8D;
-   box-shadow: 0 0 2px #E86C8D;
- }
+
    
