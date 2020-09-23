@@ -98,7 +98,8 @@ a {
 
 
  #email,#name {
-   width: 75%;
+   width: 55%;
+   max-width: 100rem;
    background: #FDFCFB;
    font-family: inherit;
    color: #737373;
