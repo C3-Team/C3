@@ -109,19 +109,6 @@ a {
  }
 
 
-#submit {
-   width: 25%;
-   height: 46px;
-   background: #000000;
-   color: white;
-   font-family: inherit;
-   font-weight: bold;
-   letter-spacing: 1px;
-   border-radius: 0 5px 5px 0;
-   cursor: pointer;
-   transition: background .3s ease-in-out;
- }
-
  input{
    margin: 0 0 10px;
  }
