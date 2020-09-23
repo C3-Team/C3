@@ -91,15 +91,13 @@ a {
    font-size: 14px;
    letter-spacing: 1px;
    line-height: 1.3em;
-   margin: -2px 0 45px;
+   margin: -2px 0 45px; 
+   
  }
  
- .button {
-   height: 44px;
-   border: none;
- }
 
- #email {
+
+ #email,#name {
    width: 75%;
    background: #FDFCFB;
    font-family: inherit;
@@ -125,6 +123,10 @@ a {
 
  #submit:hover {
    background: #d45d7d;
+ }
+
+ input{
+   margin: 0 0 10px;
  }
 
  input:focus {

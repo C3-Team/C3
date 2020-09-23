@@ -5,6 +5,14 @@
          body {
              text-align: center;
          } 
+         form {
+            width: 450px;
+             margin: 17% auto;
+        }
+        .button {
+            height: 44px;
+            border: none;
+        }
      </style>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,15 +22,21 @@
  <body>
     <form action="#" method="post" name="sign up for beta form"  data-netlify="true">
         <div class="sign">
-           <p>Sign Up For Beta</p>
+           <p>Sign Up</p>
         </div>
         <div class="description">
-          <p>Milkshake is almost ready. If you're interested in testing it out, then sign up below to get exclusive access.</p>
+          <p>Sign Up for our latest updates!                                                                              bb</p>
         </div>
-        <div class="input">
-          <input type="text" class="button" id="email" name="email" placeholder="NAME@EXAMPLE.COM">
-          <input type="submit" class="button" id="submit" value="SIGN UP">
+        <div class="input"> Name
+          <input type="text" class="button" id="name" name="name" placeholder="Alexis Rose" required>
         </div>
+
+        <div class="input"> Email
+            <input type="email" class="button" id="email" name="email" placeholder="Alexis Rose" required>
+          </div>
+        <div data-netlify-recaptcha="true"></div>
+          <button type="submit" id="submit" class="btn">Submit</button>
+        
     </form>
  </body>
  </html>
